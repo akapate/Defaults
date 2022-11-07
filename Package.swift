@@ -5,7 +5,7 @@ let package = Package(
 	name: "Defaults",
 	platforms: [
 		.macOS(.v10_12),
-		.iOS(.v10),
+		.iOS(.v11),
 		.tvOS(.v10),
 		.watchOS(.v3)
 	],
@@ -20,12 +20,6 @@ let package = Package(
 	targets: [
 		.target(
 			name: "Defaults"
-		),
-		.testTarget(
-			name: "DefaultsTests",
-			dependencies: [
-				"Defaults"
-			]
 		)
 	]
 )
